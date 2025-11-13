@@ -436,6 +436,17 @@ section {
   flex-shrink: 0;
 }
 
+.email-link {
+  color: var(--color-text);
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
 .whatsapp-link {
   color: var(--color-success);
   font-weight: 600;
